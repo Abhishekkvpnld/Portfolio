@@ -38,7 +38,7 @@ code:'https://github.com/Abhishekkvpnld/olx_clone'
 image:Work4,
 title:'My Portfolio',
 category : 'React',
-link:' https://abhishekkvpnld.github.io/Calculator/',
+link:'https://abhishekkvpnld.github.io/Portfolio/',
 code:'https://github.com/Abhishekkvpnld/My-Portfolio'
 },
 {

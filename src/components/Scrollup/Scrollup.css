@@ -14,7 +14,7 @@
 .scrollup_icon {
     font-size: 1.5rem;
     font-weight: bolder;
-    color: rgb(226, 92, 43);    
+    color: rgb(226, 43, 214);    
 }
 
 .scrollup_icon:hover{
@@ -22,7 +22,7 @@
 }
 
 .scrollup:hover{
-    background-color:rgb(70, 70, 236);
+    background-color:rgb(57, 185, 236);
 
     transform: translateY(-0.4rem);
 }

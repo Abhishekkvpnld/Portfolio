@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import AboutImg from '../../assets/about.png'
-import CV from '../../assets/work1.jpg'
+import CV from '../../assets/Abhishek-KV-CV.pdf'
 import Info from './Info'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
@@ -24,7 +24,7 @@ Aos.init({duration:1000});
                     <Info />
                     <p className="about_description">I'am a MERN stack developer with a mechanical engineering background. Passionate about technology, I've shifted into full-stack development, navigating the intersection of creativity and functionality.I have experience developing React projects and web applications.</p>
 
-                    <a download="" href={''} className="button about_button button--flex" data-aos='fade-left'>
+                    <a download="" href={CV} className="button about_button button--flex" data-aos='fade-left'>
                         Download CV
                         <svg
                             class="button__icon"
