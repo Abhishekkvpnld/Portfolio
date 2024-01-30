@@ -3,7 +3,9 @@ import Work2 from "../../assets/work2.jpg"
 import Work3 from "../../assets/work3.jpg"
 import Work4 from "../../assets/work4.png"
 import Work5 from "../../assets/work5.jpg"
-import Work6 from "../../assets/work6.avif"
+import Work6 from "../../assets/work6.jpg"
+import Work8 from "../../assets/work8.jpg"
+import Work7 from "../../assets/work7.png"
 
 export const ProjectsData = [
 {
@@ -58,6 +60,22 @@ category : 'web',
 link:'https://chat-app-chatme.netlify.app/',
 code:'https://github.com/Abhishekkvpnld/Chat-App'
 
+},
+{
+    id:7,
+image:Work7,
+title:'Authentication-App',
+category : 'web',
+link:'https://authentication-app2.netlify.app/',
+code:'https://github.com/Abhishekkvpnld/Authentication-App.git'
+},
+{
+    id:8,
+image:Work8,
+title:'Social-Media-App',
+category : 'web',
+link:'https://socio-burst.netlify.app/',
+code:'https://github.com/Abhishekkvpnld/Social-Media-App.git'
 }
 ]
 
