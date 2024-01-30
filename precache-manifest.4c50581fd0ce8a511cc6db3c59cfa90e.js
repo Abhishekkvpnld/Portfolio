@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c8dd8f6d0d1758c99aef28f0e3fd896",
+    "revision": "3b246f9319068dea45ad35fbb5536af5",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "78eab45c4176bade875e",
+    "revision": "47eb570111583b72a724",
     "url": "/Portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "01225ae476e019f17213",
+    "revision": "8ed9bf29070c791b722a",
     "url": "/Portfolio/static/css/main.756b7864.chunk.css"
   },
   {
-    "revision": "78eab45c4176bade875e",
-    "url": "/Portfolio/static/js/2.4cc9418d.chunk.js"
+    "revision": "47eb570111583b72a724",
+    "url": "/Portfolio/static/js/2.e0038b8d.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/Portfolio/static/js/2.4cc9418d.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.e0038b8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a94d8f0ad8d6c94eb505",
-    "url": "/Portfolio/static/js/3.091aa0ee.chunk.js"
+    "revision": "175135ce21425d6e1c88",
+    "url": "/Portfolio/static/js/3.eeccb59f.chunk.js"
   },
   {
-    "revision": "01225ae476e019f17213",
-    "url": "/Portfolio/static/js/main.28f666fb.chunk.js"
+    "revision": "8ed9bf29070c791b722a",
+    "url": "/Portfolio/static/js/main.a1c8f725.chunk.js"
   },
   {
-    "revision": "50c711918ba85efd814d",
-    "url": "/Portfolio/static/js/runtime-main.4fc6cf5c.js"
+    "revision": "6ec888677fcfe445ee76",
+    "url": "/Portfolio/static/js/runtime-main.d7ac1f41.js"
   },
   {
     "revision": "4702a7414610e60705c9072a344a1f42",
@@ -80,7 +80,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/work5.39d7ad13.jpg"
   },
   {
-    "revision": "2c1702a8e13bc442c93cec1381bbeb86",
-    "url": "/Portfolio/static/media/work6.2c1702a8.avif"
+    "revision": "769c40fa2d7cd178c9f4b335fe4acbd4",
+    "url": "/Portfolio/static/media/work6.769c40fa.jpg"
+  },
+  {
+    "revision": "e42d5f47d2980987b0b2c19f7c39b1b7",
+    "url": "/Portfolio/static/media/work7.e42d5f47.png"
+  },
+  {
+    "revision": "c987a1dd9ded19c37f0a7e7f4bbef3d9",
+    "url": "/Portfolio/static/media/work8.c987a1dd.jpg"
   }
 ]);
