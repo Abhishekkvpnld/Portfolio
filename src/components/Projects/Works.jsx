@@ -46,6 +46,6 @@ function Works() {
             </div>
         </div>
     )
-}
+};
 
-export default Works
+export default Works;

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import './Contact.css'
+import './Contact.css';
 import Aos from 'aos';
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
 
 
 function Contact() {
@@ -23,7 +23,7 @@ function Contact() {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section_title" data-Aos='fade-up'>Contact Me</h2>
+      <h2 className="section_title" >Contact Me</h2>
       <span className="section_subtitle" data-Aos='fade'>Get in touch</span>
 
       <div className="contact_container container grid">
@@ -83,8 +83,8 @@ function Contact() {
             </div>
 
             <div className="contact_form-div contact_form-area">
-              <label className="contact_form-tag">Project</label>
-              <textarea name="project" id="" cols="30" rows="10" className='contact_form-input contact_form-area' placeholder='Write your project' data-Aos='slide-up' required></textarea>
+              <label className="contact_form-tag">Message</label>
+              <textarea name="project" id="" cols="30" rows="10" className='contact_form-input contact_form-area' placeholder='Write your message' data-Aos='slide-up' required></textarea>
             </div>
 
             <button className="button  button--flex contact-button" data-Aos='slide-left'>
@@ -113,6 +113,6 @@ function Contact() {
       </div>
     </section>
   )
-}
+};
 
 export default Contact;

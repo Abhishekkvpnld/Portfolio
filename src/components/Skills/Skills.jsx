@@ -7,21 +7,21 @@ import 'aos/dist/aos.css'
 
 function Skills() {
 
-  useEffect(()=>{
-Aos.init({duration:500})
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 500 })
+  }, [])
 
   return (
-   <section className="skills section" id='skills'data-Aos='fade-up'>
+    <section className="skills section" id='skills' data-Aos='fade-up'>
       <h2 className="section_title" >Skills</h2>
-            <span className="section_subtitle">My Technical Level</span>
-    
-    <div className="skills_container container grid">
-      <Frontend />
+      <span className="section_subtitle">My Technical Level</span>
 
-<Backend/>
-    </div>
-   </section>
+      <div className="skills_container container grid">
+        <Frontend />
+
+        <Backend />
+      </div>
+    </section>
   )
 }
 

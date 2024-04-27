@@ -1,11 +1,12 @@
-import Work1 from "../../assets/work1.jpg"
-import Work2 from "../../assets/work2.jpg"
-import Work3 from "../../assets/work3.jpg"
-import Work4 from "../../assets/work4.png"
-import Work5 from "../../assets/work5.jpg"
-import Work6 from "../../assets/work6.jpg"
-import Work8 from "../../assets/work8.jpg"
-import Work7 from "../../assets/work7.png"
+import Work1 from "../../assets/work1.jpg";
+import Work2 from "../../assets/work2.jpg";
+import Work3 from "../../assets/work3.jpg";
+import Work4 from "../../assets/work4.png";
+import Work5 from "../../assets/work5.jpg";
+import Work6 from "../../assets/work6.jpg";
+import Work8 from "../../assets/work8.jpg";
+import Work7 from "../../assets/work7.png";
+import Work9 from "../../assets/Work9.png";
 
 export const ProjectsData = [
 {
@@ -76,7 +77,15 @@ title:'Social-Media-App',
 category : 'web',
 link:'https://socio-burst.netlify.app/',
 code:'https://github.com/Abhishekkvpnld/Social-Media-App.git'
-}
+},
+{
+    id:9,
+image:Work9,
+title:'Advanced-Chat-App',
+category : 'web',
+link:'https://chat-app-advanced.vercel.app/',
+code:'https://github.com/Abhishekkvpnld/Chat-App-Advanced.git'
+},
 ]
 
 export const projectNav = [

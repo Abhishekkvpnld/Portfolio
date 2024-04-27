@@ -35,7 +35,7 @@ box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
     display: block;
     font-size: 3rem;
     /* color: var(--title-color); */
-    -webkit-text-stroke: 0.8px #0d0d0d;
+    -webkit-text-stroke: 0.8px #c91212;
     margin-bottom: var(--mb-1);
     color:white;
 }
@@ -45,7 +45,7 @@ box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
     color:  #e8e6e5;
-    -webkit-text-stroke: 0.8px #051d0e;
+    -webkit-text-stroke: 0.8px #090e2a;
 }
 
 .services_button {
