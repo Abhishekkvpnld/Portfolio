@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b246f9319068dea45ad35fbb5536af5",
+    "revision": "c62079bc426f399645095b69125d43bd",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "47eb570111583b72a724",
+    "revision": "e14aa96e7f3193f3ed06",
     "url": "/Portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "8ed9bf29070c791b722a",
-    "url": "/Portfolio/static/css/main.756b7864.chunk.css"
+    "revision": "2b36cecdd8cb84fd677e",
+    "url": "/Portfolio/static/css/main.afff6222.chunk.css"
   },
   {
-    "revision": "47eb570111583b72a724",
-    "url": "/Portfolio/static/js/2.e0038b8d.chunk.js"
+    "revision": "e14aa96e7f3193f3ed06",
+    "url": "/Portfolio/static/js/2.0d90268f.chunk.js"
   },
   {
     "revision": "60f6bf9e100e456690e9ab6c9a37bfc2",
-    "url": "/Portfolio/static/js/2.e0038b8d.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.0d90268f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "175135ce21425d6e1c88",
-    "url": "/Portfolio/static/js/3.eeccb59f.chunk.js"
+    "revision": "2eace4a913192984f096",
+    "url": "/Portfolio/static/js/3.b6a61616.chunk.js"
   },
   {
-    "revision": "8ed9bf29070c791b722a",
-    "url": "/Portfolio/static/js/main.a1c8f725.chunk.js"
+    "revision": "2b36cecdd8cb84fd677e",
+    "url": "/Portfolio/static/js/main.3bac4e86.chunk.js"
   },
   {
-    "revision": "6ec888677fcfe445ee76",
-    "url": "/Portfolio/static/js/runtime-main.d7ac1f41.js"
+    "revision": "4e41c8bbb521687be4a7",
+    "url": "/Portfolio/static/js/runtime-main.ad765fd0.js"
   },
   {
     "revision": "4702a7414610e60705c9072a344a1f42",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78916b67c16db96dff203c144cc23e35",
     "url": "/Portfolio/static/media/Abhishek-KV-CV.78916b67.pdf"
+  },
+  {
+    "revision": "df9e7cf8d6a1e43c5470c1a220720465",
+    "url": "/Portfolio/static/media/Work9.df9e7cf8.png"
   },
   {
     "revision": "f2f68a6d9e4fcfa0fc1b1c1f5842f8da",
