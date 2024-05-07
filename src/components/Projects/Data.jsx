@@ -7,6 +7,8 @@ import Work6 from "../../assets/work6.jpg";
 import Work8 from "../../assets/work8.jpg";
 import Work7 from "../../assets/work7.png";
 import Work9 from "../../assets/Work9.png";
+import Work10 from "../../assets/work10.jpg";
+
 
 export const ProjectsData = [
 {
@@ -85,6 +87,14 @@ title:'Advanced-Chat-App',
 category : 'web',
 link:'https://chat-app-advanced.vercel.app/',
 code:'https://github.com/Abhishekkvpnld/Chat-App-Advanced.git'
+},
+{
+    id:10,
+image:Work10,
+title:'Tic-Tac-Toe-Game',
+category : 'web',
+link:'https://tic-tac-toe-game-two-alpha.vercel.app/',
+code:'https://github.com/Abhishekkvpnld/Tic-Tac-Toe-Game.git'
 },
 ]
 

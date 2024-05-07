@@ -61,7 +61,7 @@ function Contact() {
               <h3 className="contact_card-title">Messenger</h3>
               <span className="contact_card-data">Abhishek.fb121</span>
 
-              <a  className="contact_button">Write Me
+              <a href="#contact" className="contact_button">Write Me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
             </div>

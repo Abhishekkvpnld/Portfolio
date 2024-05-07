@@ -228,8 +228,6 @@ function Qualification() {
                         <div className="qualification-container right-container">
                             <img src={react} alt="img" className='img6' />
                             <div className="text-box">
-                                <h4></h4>
-                                <small></small>
                                 <p> actively exploring job opportunities to apply academic knowledge, develop practical skills, and contribute effectively to a professional setting.</p>
                                 <span class='right-container-arrow'></span>
                             </div>

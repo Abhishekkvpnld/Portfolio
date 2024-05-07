@@ -8,7 +8,6 @@
 position: relative;
 border: 0.1px solid rgb(10, 46, 54);
 background-color: var(--container-color);
-background-image: url('');
 padding: 6rem 0 2rem 2.5rem;
 border-radius: 25px;
 box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);

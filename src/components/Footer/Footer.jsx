@@ -30,13 +30,13 @@ function Footer() {
           </li>
         </ul>
         <div className="footer_social">
-          <a href="https://www.instagram.com/" className="footer_social-link" target='_blank' >
+          <a href="https://www.instagram.com/" className="footer_social-link" target='' >
             <i className="bx bxl-instagram" data-Aos='slide-right'></i>
           </a>
-          <a href="https://linkedin.com/in/abhishek-kv-77b0b7286" className="footer_social-link" target='_blank' >
+          <a href="https://linkedin.com/in/abhishek-kv-77b0b7286" className="footer_social-link" target='' >
             <i className="bx bxl-linkedin" data-Aos='fade-up'></i>
           </a>
-          <a href="https://github.com/Abhishekkvpnld" className="footer_social-link" target='_blank'>
+          <a href="https://github.com/Abhishekkvpnld" className="footer_social-link" target=''>
             <i className="bx bxl-github"  data-Aos='slide-left'></i>
           </a>
         </div>
