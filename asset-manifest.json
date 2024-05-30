@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.dc11a3b5.chunk.css",
+    "main.css": "/Portfolio/static/css/main.9fa4dc68.chunk.css",
     "main.js": "/Portfolio/static/js/main.1aa01b3e.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.1aa01b3e.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.bdbd37b9.js",
@@ -11,10 +11,10 @@
     "static/js/3.5c88071c.chunk.js": "/Portfolio/static/js/3.5c88071c.chunk.js",
     "static/js/3.5c88071c.chunk.js.map": "/Portfolio/static/js/3.5c88071c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.ecbe6bf84b57d2f4c834881cb892da30.js": "/Portfolio/precache-manifest.ecbe6bf84b57d2f4c834881cb892da30.js",
+    "precache-manifest.0d30f222d390143ca9b580a54742bf24.js": "/Portfolio/precache-manifest.0d30f222d390143ca9b580a54742bf24.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/Portfolio/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.dc11a3b5.chunk.css.map": "/Portfolio/static/css/main.dc11a3b5.chunk.css.map",
+    "static/css/main.9fa4dc68.chunk.css.map": "/Portfolio/static/css/main.9fa4dc68.chunk.css.map",
     "static/js/2.6a790f43.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6a790f43.chunk.js.LICENSE.txt",
     "static/media/1073596.png": "/Portfolio/static/media/1073596.4702a741.png",
     "static/media/Abhishek-KV-CV.pdf": "/Portfolio/static/media/Abhishek-KV-CV.baec9b9d.pdf",
@@ -23,7 +23,7 @@
     "static/media/linkedin-icon-2048x2048-ya5g47j2.png": "/Portfolio/static/media/linkedin-icon-2048x2048-ya5g47j2.400c5e27.png",
     "static/media/logo_github_icon_143196.png": "/Portfolio/static/media/logo_github_icon_143196.b3cc5ce5.png",
     "static/media/png-clipart-react-javascript-library-web-development-vue-js-funding-icon-logo-symmetry.png": "/Portfolio/static/media/png-clipart-react-javascript-library-web-development-vue-js-funding-icon-logo-symmetry.28126b1e.png",
-    "static/media/Home.css": "/Portfolio/static/media/profile.c0cd5df6.jpg",
+    "static/media/Home.css": "/Portfolio/static/media/profile.518c435c.jpg",
     "static/media/work1.jpg": "/Portfolio/static/media/work1.22b6566d.jpg",
     "static/media/work10.jpg": "/Portfolio/static/media/work10.c7ed4035.jpg",
     "static/media/work11.jpg": "/Portfolio/static/media/work11.539c1551.jpg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.bdbd37b9.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.6a790f43.chunk.js",
-    "static/css/main.dc11a3b5.chunk.css",
+    "static/css/main.9fa4dc68.chunk.css",
     "static/js/main.1aa01b3e.chunk.js"
   ]
 }
