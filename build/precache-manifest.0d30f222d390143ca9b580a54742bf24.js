@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e05edaf362c3da427efc8ab516c07f63",
+    "revision": "7b9731cb7c4106c4f4fc33f411633233",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "6bbe01849abba26ac4ab",
-    "url": "/Portfolio/static/css/main.dc11a3b5.chunk.css"
+    "revision": "a6922754f20f5d19873b",
+    "url": "/Portfolio/static/css/main.9fa4dc68.chunk.css"
   },
   {
     "revision": "5d712552a9ecfae0a1f3",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/3.5c88071c.chunk.js"
   },
   {
-    "revision": "6bbe01849abba26ac4ab",
+    "revision": "a6922754f20f5d19873b",
     "url": "/Portfolio/static/js/main.1aa01b3e.chunk.js"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/png-clipart-react-javascript-library-web-development-vue-js-funding-icon-logo-symmetry.28126b1e.png"
   },
   {
-    "revision": "c0cd5df661fd960f83cb2f3e51b657a5",
-    "url": "/Portfolio/static/media/profile.c0cd5df6.jpg"
+    "revision": "518c435ce0875f2346e2c37e2d7e7f0b",
+    "url": "/Portfolio/static/media/profile.518c435c.jpg"
   },
   {
     "revision": "22b6566df1613a9cb9fa3c85513ceb87",
