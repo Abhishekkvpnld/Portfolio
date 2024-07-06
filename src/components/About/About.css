@@ -56,12 +56,13 @@
 }
 
 .about_button{
-    background: rgb(80, 78, 78);
+    background: white;
+    color: black;
+    border: 1px dashed black;
 }
 
 .about_button:hover{
-  
-    background: linear-gradient(90deg, #0cb376, #132a7e);
+    background: linear-gradient(90deg, #58d4a7, #506edd);
 }
 
 

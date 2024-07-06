@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Info() {
     return (
@@ -13,7 +13,7 @@ function Info() {
             <div className="about_box" data-aos='zoom-in-down'>
             <i class='bx bx-briefcase about_icon'></i>
                 <h3 className="about_title">completed</h3>
-                <span className="about_subtitle">5+ projects</span>
+                <span className="about_subtitle">10+ projects</span>
             </div>
 
             <div className="about_box" data-aos='fade-right'>
@@ -24,6 +24,6 @@ function Info() {
 
         </div>
     )
-}
+};
 
-export default Info
+export default Info;

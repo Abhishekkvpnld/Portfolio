@@ -11,7 +11,7 @@ Aos.init({duration:200});
 },[])
 
   return (
-    <section className="work_section" id="project" data-Aos='zoom-in'>
+    <section className="work_section" id="project" data-Aos='fade-right'>
         <h2 className="section_title">Projects</h2>
     <span className="section_subtitle">Most recent work</span>
     <Works/>

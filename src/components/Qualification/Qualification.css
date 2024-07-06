@@ -142,7 +142,7 @@ box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),-10px -10px 10px -1px rg
 
  .timeline,.timeline2 {
      position: relative;
-     max-width: 1000px;
+     max-width: 100%;
      margin: auto;
  }
 
@@ -313,11 +313,11 @@ box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),-10px -10px 10px -1px rg
 
  @media screen and (max-width:570px) {
 
-     .timeline {
+     .timeline,.timeline2 {
          margin: 50px auto;
      }
 
-     .timeline::after {
+     .timeline,.timeline2::after {
          left: 31px;
      }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 function WorksItems({ item }) {
   return (
-    <div className="works_card" key={item.id} data-Aos='fade-up' >
+    <div className="works_card" key={item.id} data-Aos='zoom-in'>
       <img src={item.image} alt="" className='work_img' />
       <h3 className="work_title">{item.title}</h3>
       {/* <a href="#" className="work_button">

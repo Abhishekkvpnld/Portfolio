@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Typewriter } from "react-simple-typewriter";
+
 
 function Data() {
+
+
   return (
     <div className="home_data">
       <h2 className="home_title">
@@ -55,11 +59,22 @@ function Data() {
           ></path>
         </svg>
       </h2>
-      <h3 className="home_subtitle ">
+
+      <h3 className="home_subtitle">
         <span className='dynamic-text'>
-         <span >Full-Stack Developer</span>
+          <span style={{ margin: 2 }}>
+            <Typewriter
+              words={["Full-Stack Developer", "MERN-Stack Developer", "JavaScript Developer"]}
+              typeSpeed={120}
+              deleteSpeed={30}
+              loop={true}
+              cursor
+              cursorColor='black'
+            />
+          </span>
         </span>
       </h3>
+
       <p className="home_description"><span className='note'>I'am</span> a budding MERN stack developer with a fresh perspective and a strong foundation in MongoDB, Express.js, React.js, and Node.js. As a recent graduate, I have immersed myself in the dynamic world of web development, eager to contribute my skills to innovative projects <span></span></p>
       <a href="#contact" onclick="animateButton()" className="button button--flex home-button">
         Say Hello

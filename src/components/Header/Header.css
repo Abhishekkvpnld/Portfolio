@@ -6,9 +6,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background: rgba(0, 0, 0, 0.01);
-
-
+   background: white;
 
 }
 
@@ -29,6 +27,7 @@
  /* color: var(--title-color); */
     font-weight: var(--font-medium);
 }
+
 
 .nav_logo:hover{
    color: black;

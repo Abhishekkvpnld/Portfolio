@@ -165,34 +165,35 @@
 }
 
 
-.dynamic-text li {
+/* .dynamic-text li {
     color: #03a9f4;
     position: relative;
     top: 0;
-}
+} */
 
 .dynamic-text span {
     position: relative;
+    
 }
 
-.dynamic-text  span::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: var(--container-color);
-    border-left: 1.5px solid rgb(49, 230, 25);
-    animation: typing 1.5s steps(20) infinite;
-    animation-duration: 3s;
-}
+/* .dynamic-text  span::after { */
+    /* content: ''; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background: var(--container-color); */
+    /* border-left: 1.5px solid rgb(49, 230, 25); */
+    /* animation: typing 1.5s steps(20) infinite; */
+    /* animation-duration: 3s; */
+/* } */
 
-@keyframes typing {
+/* @keyframes typing {
     100% {
         left: 100%;
         margin: 0 -35px 0 35px;
     }
-}
+} */
 
 
 .home-button{

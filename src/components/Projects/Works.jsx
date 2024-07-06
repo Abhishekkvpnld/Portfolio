@@ -26,7 +26,7 @@ function Works() {
     }
 
     return (
-        <div>
+        <div> 
             <div className="work_filters">
                 {
                     projectNav.map((item, index) => {

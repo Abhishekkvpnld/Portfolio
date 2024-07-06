@@ -9,16 +9,18 @@ import Work7 from "../../assets/work7.png";
 import Work9 from "../../assets/Work9.png";
 import Work10 from "../../assets/work10.jpg";
 import Work11 from "../../assets/work11.jpg"
+import work12 from "../../assets/Work12.png";
+import work13 from "../../assets/Work13.png";
 
 
 export const ProjectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Shopping Cart',
+        title: 'E-commerce App',
         category: 'web',
-        link: 'https://shopping-cart-q726.onrender.com',
-        code: 'https://github.com/Abhishekkvpnld/shoppingcart'
+        link: 'https://e-commerce-abhisheks-projects-70ee5198.vercel.app',
+        code: 'https://github.com/Abhishekkvpnld/E-Commerce.git'
 
     },
     {
@@ -59,7 +61,7 @@ export const ProjectsData = [
     {
         id: 6,
         image: Work6,
-        title: 'Chat-app',
+        title: 'Chat App',
         category: 'web',
         link: 'https://chat-app-chatme.netlify.app/',
         code: 'https://github.com/Abhishekkvpnld/Chat-App'
@@ -68,7 +70,7 @@ export const ProjectsData = [
     {
         id: 7,
         image: Work7,
-        title: 'Authentication-App',
+        title: 'Authentication App',
         category: 'web',
         link: 'https://authentication-app2.netlify.app/',
         code: 'https://github.com/Abhishekkvpnld/Authentication-App.git'
@@ -76,7 +78,7 @@ export const ProjectsData = [
     {
         id: 8,
         image: Work8,
-        title: 'Social-Media-App',
+        title: 'Social Media App',
         category: 'web',
         link: 'https://socio-burst.netlify.app/',
         code: 'https://github.com/Abhishekkvpnld/Social-Media-App.git'
@@ -84,7 +86,7 @@ export const ProjectsData = [
     {
         id: 9,
         image: Work9,
-        title: 'Advanced-Chat-App',
+        title: 'Advanced Chat App',
         category: 'web',
         link: 'https://chat-app-advanced.vercel.app/',
         code: 'https://github.com/Abhishekkvpnld/Chat-App-Advanced.git'
@@ -92,7 +94,7 @@ export const ProjectsData = [
     {
         id: 10,
         image: Work10,
-        title: 'Tic-Tac-Toe-Game',
+        title: 'Tic-Tac-Toe Game',
         category: 'web',
         link: 'https://tic-tac-toe-game-two-alpha.vercel.app/',
         code: 'https://github.com/Abhishekkvpnld/Tic-Tac-Toe-Game.git'
@@ -100,10 +102,28 @@ export const ProjectsData = [
     {
         id: 11,
         image: Work11,
-        title: 'VideoCall-app',
+        title: 'VideoCall App',
         category: 'web',
         link: 'https://video-call-app-chi.vercel.app/',
         code: 'https://github.com/Abhishekkvpnld/Video-Call-App.git'
+    },
+    {
+        id: 12,
+        image: work12,
+        title: 'Shopping Cart',
+        category: 'web',
+        link: 'https://shopping-cart-q726.onrender.com',
+        code: 'https://github.com/Abhishekkvpnld/shoppingcart'
+
+    },
+    {
+        id: 13,
+        image: work13,
+        title: 'Real Estate App',
+        category: 'web',
+        link: '',
+        code: ''
+
     },
 ]
 
