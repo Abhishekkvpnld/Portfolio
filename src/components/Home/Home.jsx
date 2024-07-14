@@ -14,7 +14,7 @@ Aos.init({duration:500});
 },[])
 
   return (
-    <section className='home section' id='home'>
+    <section className='home section home_section' id='home'>
       <div className="home_container container grid">
         <div className="home_content grid">
          

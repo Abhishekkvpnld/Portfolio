@@ -4,6 +4,7 @@
 /* -------------variable css------------- */
 :root {
   --header-height: 3rem;
+  max-width: 100%;
 
   /* ---------------color----------- */
   --hue: 0;

@@ -69,7 +69,7 @@ function Backend() {
 
 
 
-                    <div className="skills_data">
+                    <div className="skills_data"  data-Aos='fade-left'>
                         <i class='bx bxl-github'></i>
                         <div>
                             <h3 className="skills_name">GitHub</h3>
@@ -77,7 +77,7 @@ function Backend() {
                         </div>
                     </div>
 
-                    <div className="skills_data">
+                    <div className="skills_data"  data-Aos='fade-left'>
                     <i class='bx bxl-mongodb'></i>
                         <div>
                             <h3 className="skills_name">Mongo DB</h3>
@@ -85,7 +85,7 @@ function Backend() {
                         </div>
                     </div>
 
-                    <div className="skills_data">
+                    <div className="skills_data"  data-Aos='fade-left'>
                         <i class="bx bx-rocket" style={{color:"red"}}></i>
                         <div>
                             <h3 className="skills_name">Render</h3>
@@ -93,7 +93,7 @@ function Backend() {
                         </div>
                     </div>
 
-                    <div className="skills_data">
+                    <div className="skills_data"  data-Aos='fade-left'>
                         <i class="bx bx-key"></i>
                         <div>
                             <h3 className="skills_name">JSON Web Token</h3>

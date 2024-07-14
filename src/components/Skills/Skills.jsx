@@ -18,7 +18,6 @@ function Skills() {
 
       <div className="skills_container container grid">
         <Frontend />
-
         <Backend />
       </div>
     </section>
