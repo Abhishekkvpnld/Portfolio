@@ -4,13 +4,14 @@ import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.jpg";
 import Work6 from "../../assets/work6.jpg";
-import Work8 from "../../assets/work8.jpg";
 import Work7 from "../../assets/work7.png";
-import Work9 from "../../assets/Work9.png";
+import Work8 from "../../assets/work8.png";
+import Work9 from "../../assets/work9.jpg";
 import Work10 from "../../assets/work10.jpg";
 import Work11 from "../../assets/work11.jpg"
-import work12 from "../../assets/Work12.png";
+import work12 from "../../assets/Work12.jpg";
 import work13 from "../../assets/Work13.png";
+import work14 from "../../assets/work14.jpg";
 
 
 export const ProjectsData = [
@@ -121,8 +122,17 @@ export const ProjectsData = [
         image: work13,
         title: 'Real Estate App',
         category: 'web',
-        link: '',
-        code: ''
+        link: '#',
+        code: 'https://github.com/Abhishekkvpnld/Real_Estate_App'
+
+    },
+    {
+        id: 14,
+        image: work14,
+        title: 'Weather App',
+        category: 'React',
+        link: 'https://weather-app-abhisheks-projects-70ee5198.vercel.app',
+        code: 'https://github.com/Abhishekkvpnld/weather_app'
 
     },
 ]
