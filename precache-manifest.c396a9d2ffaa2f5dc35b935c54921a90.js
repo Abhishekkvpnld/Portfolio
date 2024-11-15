@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f3f7976aceb74c8d6535043378acfeb",
+    "revision": "bee450d0af31222feb70da1a9bcbef75",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "b853d29431a161faa253",
+    "revision": "da9369a69f3be2873c4a",
     "url": "/Portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "7b03def1bb2d2aca0a38",
+    "revision": "6a2b1fe1e1014005731f",
     "url": "/Portfolio/static/css/main.6d62e94f.chunk.css"
   },
   {
-    "revision": "b853d29431a161faa253",
-    "url": "/Portfolio/static/js/2.a293dc51.chunk.js"
+    "revision": "da9369a69f3be2873c4a",
+    "url": "/Portfolio/static/js/2.1a4e6ad8.chunk.js"
   },
   {
     "revision": "b114cc85da504a772f040e3f40f8e46a",
-    "url": "/Portfolio/static/js/2.a293dc51.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.1a4e6ad8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "27204ce6dab193db3936",
-    "url": "/Portfolio/static/js/3.1ad7a169.chunk.js"
+    "revision": "9b89b7a1ccb85b23a596",
+    "url": "/Portfolio/static/js/3.6f5bf96e.chunk.js"
   },
   {
-    "revision": "7b03def1bb2d2aca0a38",
-    "url": "/Portfolio/static/js/main.df73f226.chunk.js"
+    "revision": "6a2b1fe1e1014005731f",
+    "url": "/Portfolio/static/js/main.9e8c951f.chunk.js"
   },
   {
-    "revision": "70764164c58d5be4e6fb",
-    "url": "/Portfolio/static/js/runtime-main.3260bc9a.js"
+    "revision": "5062fe592a5d6bb22caa",
+    "url": "/Portfolio/static/js/runtime-main.77fb2767.js"
   },
   {
     "revision": "4702a7414610e60705c9072a344a1f42",
@@ -82,6 +82,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d88badd821bdbfcdaa91d01893b0fea5",
     "url": "/Portfolio/static/media/work14.d88badd8.jpg"
+  },
+  {
+    "revision": "ef35f0a2f2197fcb8a5faad7e1c5fe51",
+    "url": "/Portfolio/static/media/work15.ef35f0a2.webp"
+  },
+  {
+    "revision": "5088cafe9d85ad5d6480ee2f09375f53",
+    "url": "/Portfolio/static/media/work16.5088cafe.png"
   },
   {
     "revision": "250a594f23b4bb3a22c3dd68fbecd0b6",
