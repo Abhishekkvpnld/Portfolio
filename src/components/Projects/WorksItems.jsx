@@ -9,10 +9,10 @@ function WorksItems({ item }) {
       {/* <a href="#" className="work_button">
         Demo <i className="bx bx-right-arrow-alt work_button-icon"></i>
       </a> */}
-      <a class="btn github-button " href={item.code} target='_blank'>GitHub</a><a className='btn  view-button' target='_blank' href={item.link}>view</a>
+      <a class="btn github-button " href={item.code} rel="noopener noreferrer" target='_blank'>GitHub</a><a className='btn  view-button' rel="noopener noreferrer" target='_blank' href={item.link}>view</a>
     
     </div>
   );
-}
+} 
 
 export default WorksItems;

@@ -12,7 +12,8 @@ import Work11 from "../../assets/work11.jpg"
 import work12 from "../../assets/Work12.jpg";
 import work13 from "../../assets/Work13.png";
 import work14 from "../../assets/work14.jpg";
-import work15 from "../../assets/work15.png";
+import work15 from "../../assets/work15.webp";
+import work16 from "../../assets/work16.png"
 
 
 export const ProjectsData = [
@@ -141,6 +142,15 @@ export const ProjectsData = [
         image: work15,
         title: 'Note App',
         category: 'React',
+        link: 'https://notes-app-six-gray.vercel.app',
+        code: 'https://github.com/Abhishekkvpnld/Notes-App'
+
+    },
+    {
+        id: 15,
+        image: work16,
+        title: 'DocCraft',
+        category: 'web',
         link: 'https://notes-app-six-gray.vercel.app',
         code: 'https://github.com/Abhishekkvpnld/Notes-App'
 
