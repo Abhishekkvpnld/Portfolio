@@ -13,7 +13,8 @@ import work12 from "../../assets/Work12.jpg";
 import work13 from "../../assets/Work13.png";
 import work14 from "../../assets/work14.jpg";
 import work15 from "../../assets/work15.webp";
-import work16 from "../../assets/work16.png"
+import work16 from "../../assets/work16.png";
+import work17 from "../../assets/work17.jpg";
 
 
 export const ProjectsData = [
@@ -141,18 +142,27 @@ export const ProjectsData = [
         id: 15,
         image: work15,
         title: 'Note App',
-        category: 'React',
+        category: 'web',
         link: 'https://notes-app-six-gray.vercel.app',
         code: 'https://github.com/Abhishekkvpnld/Notes-App'
 
     },
     {
-        id: 15,
+        id: 16,
         image: work16,
         title: 'DocCraft',
         category: 'web',
-        link: 'https://notes-app-six-gray.vercel.app',
-        code: 'https://github.com/Abhishekkvpnld/Notes-App'
+        link: 'https://document-editor-brown.vercel.app/',
+        code: 'https://github.com/Abhishekkvpnld/Document_Editor'
+
+    },
+    {
+        id: 17,
+        image: work17,
+        title: 'HealthCare',
+        category: 'web',
+        link: 'https://hospital-managment-psi.vercel.app/',
+        code: 'https://github.com/Abhishekkvpnld/Hospital_Managment'
 
     },
 ]
