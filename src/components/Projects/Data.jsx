@@ -16,6 +16,7 @@ import work15 from "../../assets/work15.webp";
 import work16 from "../../assets/work16.png";
 import work17 from "../../assets/work17.jpg";
 import work18 from "../../assets/work18.jpg";
+import work19 from "../../assets/work19.png";
 
 
 export const ProjectsData = [
@@ -173,6 +174,15 @@ export const ProjectsData = [
         category: 'web',
         link: 'https://food-ordering-app-1-hbrc.onrender.com',
         code: 'https://github.com/Abhishekkvpnld/Food-Ordering-App'
+
+    },
+    {
+        id: 19,
+        image: work19,
+        title: 'Quiz App',
+        category: 'web',
+        link: 'https://quiz-app-ruddy-omega.vercel.app',
+        code: 'https://github.com/Abhishekkvpnld/Quiz_App'
 
     },
 ]

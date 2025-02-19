@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer_container container">
-        <h1 className="footer_title">Abhishek</h1>
+        <h1 className="footer_title">Abhishek kv</h1>
 
         <ul className="footer_list">
           <li>
@@ -37,7 +37,7 @@ function Footer() {
             <i className="bx bxl-linkedin" data-Aos='fade-up'></i>
           </a>
           <a href="https://github.com/Abhishekkvpnld" className="footer_social-link" target=''>
-            <i className="bx bxl-github"  data-Aos='slide-left'></i>
+            <i className="bx bxl-github" data-Aos='slide-left'></i>
           </a>
         </div>
         <span className='footer_copy'>

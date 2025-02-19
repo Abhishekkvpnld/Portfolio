@@ -14,7 +14,7 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <h6 className='nav_logo animated-name'><span className='cursor'>Abhishek</span></h6>
+        <h6 className='nav_logo animated-name'><span className='cursor'>Abhishek kv</span></h6>
 
         <div className={Toggle ? 'nav_menu show-menu ' : 'nav_menu'}>
           <ul className='nav_list grid'>

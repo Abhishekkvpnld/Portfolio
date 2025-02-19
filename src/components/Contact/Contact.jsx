@@ -37,7 +37,7 @@ function Contact() {
               <i className="bx bx-mail-send mail contact_card-icon"></i>
 
               <h3 className="contact_card-title">Email</h3>
-              <span className="contact_card-data">Abhishekkv@gmail.com</span>
+              <span className="contact_card-data">Abhishekkvpnld@gmail.com</span>
 
               <a href="user@gmail.com" className="contact_button">Write Me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
