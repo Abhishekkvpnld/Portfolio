@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02ba47d5f4b2a3328b4e007f6ff62ac1",
+    "revision": "1756597091dd3e4bd1657a373db9b182",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "598903ae2b5eab93265b",
+    "revision": "3e14d5bc2010628f5c48",
     "url": "/Portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "0149f56f4656801d0286",
-    "url": "/Portfolio/static/css/main.6d62e94f.chunk.css"
+    "revision": "7a26b2ff9afc8413d093",
+    "url": "/Portfolio/static/css/main.cb522c29.chunk.css"
   },
   {
-    "revision": "598903ae2b5eab93265b",
-    "url": "/Portfolio/static/js/2.5a1b1ef6.chunk.js"
+    "revision": "3e14d5bc2010628f5c48",
+    "url": "/Portfolio/static/js/2.373e96fe.chunk.js"
   },
   {
     "revision": "b114cc85da504a772f040e3f40f8e46a",
-    "url": "/Portfolio/static/js/2.5a1b1ef6.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.373e96fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db07973e95652105ba3b",
-    "url": "/Portfolio/static/js/3.3ad845d5.chunk.js"
+    "revision": "007614dd0ae09454d38c",
+    "url": "/Portfolio/static/js/3.4e6b5ad0.chunk.js"
   },
   {
-    "revision": "0149f56f4656801d0286",
-    "url": "/Portfolio/static/js/main.f01e54ae.chunk.js"
+    "revision": "7a26b2ff9afc8413d093",
+    "url": "/Portfolio/static/js/main.60f4bf90.chunk.js"
   },
   {
-    "revision": "ff42d4c1a8c4c9b6d23d",
-    "url": "/Portfolio/static/js/runtime-main.14afb666.js"
+    "revision": "3a5c0b553b6476134810",
+    "url": "/Portfolio/static/js/runtime-main.95ee42b2.js"
   },
   {
     "revision": "4702a7414610e60705c9072a344a1f42",
@@ -98,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "25ba1656aab507030cef3ae680c5ec6e",
     "url": "/Portfolio/static/media/work18.25ba1656.jpg"
+  },
+  {
+    "revision": "20662f10e3608f040a7344d4c446c1fe",
+    "url": "/Portfolio/static/media/work19.20662f10.png"
   },
   {
     "revision": "250a594f23b4bb3a22c3dd68fbecd0b6",
