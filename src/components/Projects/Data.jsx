@@ -181,7 +181,7 @@ export const ProjectsData = [
         image: work19,
         title: 'Quiz App',
         category: 'web',
-        link: 'https://quiz-app-ruddy-omega.vercel.app',
+        link: 'https://quiz-dacoid-digital.vercel.app',
         code: 'https://github.com/Abhishekkvpnld/Quiz_App'
 
     },
