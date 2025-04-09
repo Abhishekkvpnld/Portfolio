@@ -17,6 +17,7 @@ import work16 from "../../assets/work16.png";
 import work17 from "../../assets/work17.jpg";
 import work18 from "../../assets/work18.jpg";
 import work19 from "../../assets/work19.png";
+import work20 from "../../assets/work20.jpg";
 
 
 export const ProjectsData = [
@@ -183,6 +184,15 @@ export const ProjectsData = [
         category: 'web',
         link: 'https://quiz-dacoid-digital.vercel.app',
         code: 'https://github.com/Abhishekkvpnld/Quiz_App'
+
+    },
+    {
+        id: 20,
+        image: work20,
+        title: 'DeamIT',
+        category: 'web',
+        link: 'https://job-portal-delta-ecru.vercel.app',
+        code: 'https://github.com/Abhishekkvpnld/Job-Portal'
 
     },
 ]
