@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import AboutImg from '../../assets/about.png'
-import CV from '../../assets/Abhishek-kv.pdf'
+import CV from '../../assets/Abhishek-kv_MERN.pdf'
 import Info from './Info'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
