@@ -1,0 +1,1 @@
+import{j as l}from"./index-uTq3N5b6.js";function r(){return window.addEventListener("scroll",function(){const s=document.querySelector(".scrollup");this.scrollY>=560?s.classList.add("show-scroll"):s.classList.remove("show-scroll")}),l.jsx("a",{href:"#home",className:"scrollup",children:l.jsx("i",{className:"uil uil-arrow-up scrollup_icon"})})}export{r as default};

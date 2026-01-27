@@ -1,2 +1,0 @@
-(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[11],{57:function(o,s,e){},62:function(o,s,e){"use strict";e.r(s);var l=e(0),c=e.n(l);e(57);s.default=function(){return window.addEventListener("scroll",(function(){const o=document.querySelector(".scrollup");this.scrollY>=560?o.classList.add("show-scroll"):o.classList.remove("show-scroll")})),c.a.createElement("a",{href:"#home",className:"scrollup"},c.a.createElement("i",{className:"uil uil-arrow-up scrollup_icon"}))}}}]);
-//# sourceMappingURL=11.6c2467d1.chunk.js.map
