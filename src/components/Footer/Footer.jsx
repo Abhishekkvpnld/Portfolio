@@ -17,31 +17,44 @@ function Footer() {
         <ul className="footer_list">
           <li>
             <a href="#about" className="footer_link">About</a>
-
           </li>
-
           <li>
             <a href="#project" className="footer_link">Projects</a>
           </li>
-
-
           <li>
             <a href="#home" className="footer_link">Home</a>
           </li>
         </ul>
+
         <div className="footer_social">
-          <a href="https://www.instagram.com/" className="footer_social-link" target='' >
-            <i className="bx bxl-instagram" data-Aos='slide-right'></i>
+          <a
+            href="https://leetcode.com/u/Abhishekkvpnld/"
+            className="footer_social-link leetcode-link"
+            target='_blank'
+            rel="noopener noreferrer"
+          >
+            <i className="bx bx-code-alt" data-Aos='slide-right'></i>
           </a>
-          <a href="https://linkedin.com/in/abhishek-kv-77b0b7286" className="footer_social-link" target='' >
+          <a
+            href="https://linkedin.com/in/abhishek-kv-77b0b7286"
+            className="footer_social-link linkedin-link"
+            target='_blank'
+            rel="noopener noreferrer"
+          >
             <i className="bx bxl-linkedin" data-Aos='fade-up'></i>
           </a>
-          <a href="https://github.com/Abhishekkvpnld" className="footer_social-link" target=''>
+          <a
+            href="https://github.com/Abhishekkvpnld"
+            className="footer_social-link github-link"
+            target='_blank'
+            rel="noopener noreferrer"
+          >
             <i className="bx bxl-github" data-Aos='slide-left'></i>
           </a>
         </div>
+
         <span className='footer_copy'>
-          &#169; Abhishek.kv. All copy-rights reserved
+          &#169; Abhishek.kv. All rights reserved
         </span>
       </div>
     </footer>

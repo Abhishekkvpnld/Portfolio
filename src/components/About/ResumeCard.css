@@ -1,0 +1,87 @@
+/* Resume Card Styles */
+.resume_card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1.25rem;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    text-decoration: none;
+    max-width: 320px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Icon Box */
+.resume_icon_box {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(135deg, #ff4b4b, #d10000);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 10px rgba(209, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+/* Details */
+.resume_details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.resume_filename {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--title-color);
+    margin-bottom: 0.1rem;
+}
+
+.resume_size {
+    font-size: 0.75rem;
+    color: var(--text-color-light);
+    font-weight: 500;
+}
+
+/* Download Action Icon */
+.resume_download_icon {
+    font-size: 1.25rem;
+    color: #8b5cf6;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effects */
+.resume_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.15);
+    border-color: #8b5cf6;
+}
+
+.resume_card:hover .resume_icon_box {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.resume_card:hover .resume_download_icon {
+    opacity: 1;
+    transform: translateY(3px);
+    color: #06b6d4;
+}
+
+.resume_card:hover .resume_filename {
+    color: #8b5cf6;
+}
+
+/* Active/Click Effect */
+.resume_card:active {
+    transform: scale(0.98);
+}

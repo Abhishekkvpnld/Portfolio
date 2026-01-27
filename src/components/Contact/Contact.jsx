@@ -1,9 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-
+import { motion } from 'framer-motion';
 
 function Contact() {
 
@@ -16,15 +14,10 @@ function Contact() {
     alert('message sent,Thank you for your response.')
   }
 
-  useEffect(() => {
-    Aos.init({ duration: 1400, delay: 100 })
-  }, [])
-
-
   return (
     <section className="contact section" id="contact">
       <h2 className="section_title" >Contact Me</h2>
-      <span className="section_subtitle" data-Aos='fade'>Get in touch</span>
+      <span className="section_subtitle">Get in touch</span>
 
       <div className="contact_container container grid">
 
@@ -33,29 +26,47 @@ function Contact() {
 
           <div className="contact_info">
 
-            <div className="contact_card" data-Aos='fade-right'>
+            <motion.div
+              className="contact_card"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+            >
               <i className="bx bx-mail-send mail contact_card-icon"></i>
 
               <h3 className="contact_card-title">Email</h3>
               <span className="contact_card-data">Abhishekkvpnld@gmail.com</span>
 
-              <a href="user@gmail.com" className="contact_button">Write Me
+              <a href="mailto:Abhishekkvpnld@gmail.com" className="contact_button">Write Me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
-            </div>
+            </motion.div>
 
-            <div className="contact_card" data-Aos='fade-right'>
+            <motion.div
+              className="contact_card"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
+            >
               <i className="bx bxl-whatsapp whatsapp contact_card-icon"></i>
 
               <h3 className="contact_card-title">Whatsapp</h3>
               <span className="contact_card-data">999-222-555</span>
 
-              <a href="https/fsslkfsflsfsj" className="contact_button">Write Me
+              <a href="https://wa.me/91999222555" className="contact_button">Write Me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
-            </div>
+            </motion.div>
 
-            <div className="contact_card" data-Aos='fade-right'>
+            <motion.div
+              className="contact_card"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
               <i className="bx bxl-messenger messenger contact_card-icon"></i>
 
               <h3 className="contact_card-title">Messenger</h3>
@@ -64,7 +75,7 @@ function Contact() {
               <a href="#contact" className="contact_button">Write Me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
-            </div>
+            </motion.div>
           </div>
         </div>
 
@@ -72,25 +83,49 @@ function Contact() {
           <h3 className="contact_title">Write me your project</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact_form">
-            <div className="contact_form-div">
+            <motion.div
+              className="contact_form-div"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+            >
               <label htmlFor="" className="contact_form-tag">Name</label>
-              <input type="text" name='name' className='contact_form-input' placeholder='Insert your name' data-Aos='slide-up' required />
-            </div>
+              <input type="text" name='name' className='contact_form-input' placeholder='Insert your name' required />
+            </motion.div>
 
-            <div className="contact_form-div">
+            <motion.div
+              className="contact_form-div"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
+            >
               <label className="contact_form-tag">Mail</label>
-              <input type="email" name='email' className='contact_form-input' placeholder='Insert your email' data-Aos='slide-up' required />
-            </div>
+              <input type="email" name='email' className='contact_form-input' placeholder='Insert your email' required />
+            </motion.div>
 
-            <div className="contact_form-div contact_form-area">
+            <motion.div
+              className="contact_form-div contact_form-area"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
               <label className="contact_form-tag">Message</label>
-              <textarea name="project" id="" cols="30" rows="10" className='contact_form-input contact_form-area' placeholder='Write your message' data-Aos='slide-up' required></textarea>
-            </div>
+              <textarea name="project" id="" cols="30" rows="10" className='contact_form-input contact_form-area' placeholder='Write your message' required></textarea>
+            </motion.div>
 
-            <button className="button  button--flex contact-button" data-Aos='slide-left'>
+            <motion.button
+              className="button button--flex contact-button"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              viewport={{ once: true }}
+            >
               Send Message
               <svg
-                class="button_icon"
+                className="button_icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -106,13 +141,13 @@ function Contact() {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-            </button>
+            </motion.button>
           </form>
         </div>
 
       </div>
     </section>
   )
-};
+}
 
 export default Contact;

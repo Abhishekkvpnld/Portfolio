@@ -1,177 +1,217 @@
-.work_section{
+/* ==========================================
+   Modern Projects Section Styles
+   ========================================== */
+
+.work_section {
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Filter Buttons */
+.work_filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
+.work_item {
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+    font-weight: var(--font-medium);
+    font-size: var(--small-font-size);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(4px);
+    color: var(--title-color);
+    text-transform: capitalize;
+}
+
+.work_item:hover {
+    background: rgba(139, 92, 246, 0.1);
+    color: #8b5cf6;
+    transform: translateY(-2px);
+}
+
+.active-work {
+    background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+    border: none;
+}
+
+.active-work:hover {
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
+}
+
+/* Projects Grid */
+.work_container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: start;
+}
+
+/* Project Card */
+.works_card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 1.25rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    height: 250px; /* Fixed height for uniformity */
+    cursor: pointer;
+}
+
+.works_card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(139, 92, 246, 0.15);
+}
+
+.work_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.works_card:hover .work_img {
+    transform: scale(1.1);
+}
+
+/* Glass Details Panel (Hover Reveal) */
+.work_details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark Overlay */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease;
+    padding: 1.5rem;
+    backdrop-filter: blur(2px);
 }
 
-.work_filters {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 0.75rem;
-  margin-bottom: var(--mb-2);
+.works_card:hover .work_details {
+    opacity: 1;
 }
 
-.work_item {
-  color: var(--title-color);
-  cursor: pointer;
-  padding: 0.25rem 0.75rem;
-  font-weight: var(--font-medium);
-  border-radius: 0.5rem;
-  text-transform: capitalize;
-}
-
-.work_item:hover {
-  background-color: var(--title-color);
-  color: var(--container-color);
-}
-
-.work_container {
-  grid-template-columns: repeat(3, max-content);
-  gap: 1rem;
-  justify-content: center;
-}
-
-.works_card {
-  background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.25rem;
-  border-radius: 1rem;
-  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.05);
-  width: 300px;
-}
-
-.work_img {
-  width: 295px;
-  height: 170px;
-  border-radius: 1rem;
-  margin-bottom: var(--mb-1);
-}
-
+/* Slide Up Animation for Content */
 .work_title {
-  font-size: var(--normal-font-size);
-  font-weight: 1rem;
-  margin-bottom: var(--mb-0-5);
+    font-size: 1.25rem;
+    font-weight: var(--font-semi-bold);
+    color: #fff;
+    margin-bottom: 1.5rem;
+    transform: translateY(20px);
+    transition: transform 0.4s ease 0.1s;
+    text-align: center;
+}
+
+.works_card:hover .work_title {
+    transform: translateY(0);
+}
+
+.work_buttons {
+    display: flex;
+    gap: 1rem;
+    transform: translateY(20px);
+    transition: transform 0.4s ease 0.2s;
+}
+
+.works_card:hover .work_buttons {
+    transform: translateY(0);
 }
 
 .work_button {
-  color: var(--text-color);
-  font-size: var(--small-font-size);
-  display: flex;
-  align-items: center;
-  column-gap: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: var(--font-medium);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
 }
 
-.work_button {
-  font-size: 1rem;
-  transition: 0.4s;
+.btn-github {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.work_button:hover {
-  transform: translateX(0.25rem);
+.btn-github:hover {
+    background: #fff;
+    color: #333;
 }
 
-.btn {
-  margin: 5px;
+.btn-demo {
+    background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+    color: #fff;
+    border: none;
 }
 
-/* ---------- active work -------- */
-.active-work {
-  /* background-color: var(--title-color); */
-  background-color: green;
-  color: var(--container-color);
+.btn-demo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(139, 92, 246, 0.4);
 }
 
-.active-work:hover {
-  transform: scale(1.1);
-}
-
-.non-active {
-  color: black;
-  background-color: transparent;
-}
-
-.view-button {
-  border: 1px solid red;
-}
-
-.github-button {
-  border: 1px solid green;
-}
-
-.github-button:hover {
-  transform: scale(1.1);
-  background-color: rgb(155, 241, 168);
-  color: black;
-  border: 2px solid black;
-}
-
-.view-button:hover {
-  transform: scale(1.1);
-  background-color: rgb(230, 191, 173);
-  color: black;
-  border: 2px solid black;
-}
-
-/* ============sizes============== */
-
+/* Responsive */
 @media screen and (max-width: 992px) {
-  .work_container {
-    gap: 1.25em;
-    grid-template-columns: repeat(2, max-content);
-  }
-
-  .work_card {
-    padding: 1rem;
-  }
-
-  .work_img {
-    margin-bottom: 0.75rem;
-  }
-
-  .work_title {
-    margin-bottom: 0.25rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .work_container {
-    grid-template-columns: repeat(2, max-content);
-  }
+    .work_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
-  .work_container {
-    grid-template-columns: repeat(2, max-content);
-  }
+    .work_container {
+        grid-template-columns: 1fr;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .works_card {
+        height: 280px; 
+    }
 
-  .works_card {
-    background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1.1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.05);
-    width: 200px;
-  }
-
-  .work_img {
-    width: 150px;
-    height: 110px;
-  }
-
-  .work_title {
-    margin-bottom: 0.25rem;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .work_item {
-    font-size: var(--small-font-size);
-  }
-
-  .work_filters {
-    column-gap: 0.25rem;
-  }
+    /* On Mobile: Always show details partially or fully? 
+       Design Choice: Keep tap to reveal or make title always visible overlays.
+       Let's stick to tap/hover for simplicity, or make it partially visible for better UX. */
+       
+    /* Alternative for mobile: Gradient overlay at bottom with permanent title */
+    .work_details {
+        background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+        opacity: 1;
+        justify-content: flex-end;
+        padding-bottom: 2rem;
+    }
+    
+    .work_title {
+        transform: translateY(0);
+        margin-bottom: 1rem;
+    }
+    
+    .work_buttons {
+        transform: translateY(0);
+    }
+    
+    .works_card:hover .work_img {
+        transform: scale(1);
+    }
 }

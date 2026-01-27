@@ -1,21 +1,22 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Projects.css'
-import Works from './Works' 
-import Aos from 'aos';
-import 'aos/dist/aos.css'
+import Works from './Works'
+import { motion } from 'framer-motion'
 
 function Projects() {
-
-useEffect(()=>{
-Aos.init({duration:200});
-},[])
-
   return (
-    <section className="work_section" id="project" data-Aos='fade-right'>
-        <h2 className="section_title">Projects</h2>
-    <span className="section_subtitle">Most recent work</span>
-    <Works/>
-    </section>
+    <motion.section
+      className="work_section"
+      id="project"
+      initial={{ opacity: 0, x: -50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+    >
+      <h2 className="section_title">Projects</h2>
+      <span className="section_subtitle">Most recent work</span>
+      <Works />
+    </motion.section>
   )
 }
 
