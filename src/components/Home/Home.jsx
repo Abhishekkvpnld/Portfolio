@@ -22,18 +22,18 @@ function Home() {
       <div className="home_container container grid">
         <div className="home_content grid">
 
-          <div data-aos="fade-right" data-aos-delay="200">
+          <div className="home_social-wrapper" data-aos="fade-right" data-aos-delay="200">
             <Social />
           </div>
 
           <div className="home_img" data-aos="zoom-in" data-aos-delay="400"></div>
 
-          <div data-aos="fade-up" data-aos-delay="600">
+          <div className="home_data-wrapper" data-aos="fade-up" data-aos-delay="600">
             <Data />
           </div>
 
         </div>
-        
+
         <div data-aos="fade-up" data-aos-delay="800">
           <ScrollDown />
         </div>
@@ -54,7 +54,7 @@ function Home() {
         <i className='bx bxl-css3 home_floating-icon icon-css'></i>
         <i className='bx bxl-mongodb home_floating-icon icon-mongo'></i>
         <i className='bx bxl-git home_floating-icon icon-git'></i>
-        
+
       </div>
     </section>
   )
