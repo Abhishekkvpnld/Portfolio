@@ -53,7 +53,7 @@
 
 .nav_list {
     display: flex;
-    column-gap: 1.5rem;
+    column-gap: 1rem;
     padding: 0.5rem;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 3rem;

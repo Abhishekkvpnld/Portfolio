@@ -27,7 +27,7 @@ function Qualification() {
     }
 
     return (
-        <section className="qualification section" id="qualification">
+        <section className="qualification section  flex items-center justify-center flex-col" id="qualification">
             <h2 className="section_title">Qualification</h2>
             <span className="section_subtitle">My Journey</span>
 

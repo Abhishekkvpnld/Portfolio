@@ -7,7 +7,7 @@ function Skills() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="skills section" id='skills'>
+    <section className="skills section flex items-center justify-center flex-col" id='skills'>
       <h2 className="section_title">Skills</h2>
       <span className="section_subtitle">My Technical Level</span>
 
@@ -28,7 +28,7 @@ function Skills() {
         {/* Content Area */}
         <div className="skills_content-area">
           <motion.div
-            className="skills_grid"
+            className="skills_grid bg-green-400 flex items-center justify-center"
             key={activeTab}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

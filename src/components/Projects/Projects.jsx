@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 function Projects() {
   return (
     <motion.section
-      className="work_section"
+      className="work_section  flex items-center justify-center flex-col"
       id="project"
       initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
