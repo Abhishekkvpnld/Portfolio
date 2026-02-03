@@ -10,9 +10,9 @@ function Services() {
     setToggleState(index)
   }
 
-  useEffect(()=>{
-Aos.init({duration:300});
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 300 });
+  }, [])
 
   return (
     <section className="services section" id="services" >
@@ -30,7 +30,7 @@ Aos.init({duration:300});
             View More
             <i className="uil uil-arrow-right"></i>
           </span>
-         
+
 
           <div className={ToggleState === 1 ? 'services_modal active-modal' : 'services_modal'}>
             <div className="services_modal-content">
@@ -43,21 +43,21 @@ Aos.init({duration:300});
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Creating responsive and user-friendly interfaces.
+                    Creating responsive and user-friendly interfaces.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Implementing designs using HTML, CSS, and JavaScript.
+                    Implementing designs using HTML, CSS, and JavaScript.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Utilizing front-end frameworks like React,Bootstrap ect.
+                    Utilizing front-end frameworks like React,Bootstrap ect.
                   </p>
                 </li>
 
@@ -65,7 +65,7 @@ Aos.init({duration:300});
             </div>
           </div>
         </div>
-        
+
 
         <div className="services_content">
           <div className='services_card-name'>
@@ -88,21 +88,21 @@ Aos.init({duration:300});
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Designing and developing server-side logic and applications.
+                    Designing and developing server-side logic and applications.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Working with server-side language such as Node.js.
+                    Working with server-side language such as Node.js.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Managing databases and data storage.
+                    Managing databases and data storage.
                   </p>
                 </li>
 
@@ -128,28 +128,28 @@ Aos.init({duration:300});
               <i className="uil uil-times services_modal-close" onClick={() => toggleTab(0)}></i>
               <h3 className="services_modal-title">Full-Stack Web Development</h3>
               <p className="services_modal-description">
-I specialize in full-stack development, covering both the visible part of websites and the behind-the-scenes functionality. From crafting user interfaces with HTML, CSS, and JavaScript to managing databases and server logic using language like Node.js, I ensure a complete and seamless web experience.</p>
+                I specialize in full-stack development, covering both the visible part of websites and the behind-the-scenes functionality. From crafting user interfaces with HTML, CSS, and JavaScript to managing databases and server logic using language like Node.js, I ensure a complete and seamless web experience.</p>
 
               <ul className='services_modal-services grid'>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Building end-to-end web applications from concept to deployment.
+                    Building end-to-end web applications from concept to deployment.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Integrating front-end and back-end components for seamless functionality.
+                    Integrating front-end and back-end components for seamless functionality.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Ensuring a smooth user experience through effective communication between client and server.
+                    Ensuring a smooth user experience through effective communication between client and server.
                   </p>
                 </li>
 
@@ -174,28 +174,28 @@ I specialize in full-stack development, covering both the visible part of websit
               <i className="uil uil-times services_modal-close" onClick={() => toggleTab(0)}></i>
               <h3 className="services_modal-title">Database Management</h3>
               <p className="services_modal-description">
-Database management involves organizing, storing, and retrieving data efficiently. My role include maintaining the integrity of data to support applications and business operations.</p>
+                Database management involves organizing, storing, and retrieving data efficiently. My role include maintaining the integrity of data to support applications and business operations.</p>
 
               <ul className='services_modal-services grid'>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Designing and creating database schemas.
+                    Designing and creating database schemas.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Writing queries to retrieve and manipulate data.
+                    Writing queries to retrieve and manipulate data.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Integrating databases with the back-end of the application.
+                    Integrating databases with the back-end of the application.
                   </p>
                 </li>
 
@@ -226,24 +226,60 @@ Database management involves organizing, storing, and retrieving data efficientl
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Using version control systems like Git to track changes and collaborate with other developers.
+                    Using version control systems like Git to track changes and collaborate with other developers.
                   </p>
                 </li>
 
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                  Managing code repositories on platforms like GitHub or GitLab.
+                    Managing code repositories on platforms like GitHub or GitLab.
                   </p>
                 </li>
-{/* 
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="services_content">
+          <div className='services_card-name'>
+            <i className="uil uil-cloud-compute services_icon"></i>
+            <h3 className="services_title">DevOps <br /> Operations</h3>
+          </div>
+
+          <span className="services_button" onClick={() => toggleTab(6)}>View More
+            <i className="uil uil-arrow-right"></i>
+          </span>
+
+          <div className={ToggleState === 6 ? 'services_modal active-modal' : 'services_modal'}>
+            <div className="services_modal-content">
+              <i className="uil uil-times services_modal-close" onClick={() => toggleTab(0)}></i>
+              <h3 className="services_modal-title">DevOps Operations</h3>
+              <p className="services_modal-description">
+                I streamline development and deployment processes using modern DevOps practices. From setting up CI/CD pipelines to managing cloud infrastructure, I ensure applications are delivered faster and more reliably.
+              </p>
+
+              <ul className='services_modal-services grid'>
                 <li className="services_modal-services">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    git
+                    Setting up automated CI/CD pipelines for seamless deployment.
                   </p>
-                </li> */}
+                </li>
 
+                <li className="services_modal-services">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">
+                    Managing cloud infrastructure on AWS/Azure.
+                  </p>
+                </li>
+
+                <li className="services_modal-services">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">
+                    Implementing monitoring and logging solutions.
+                  </p>
+                </li>
               </ul>
             </div>
           </div>

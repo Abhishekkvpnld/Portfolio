@@ -28,7 +28,7 @@ function Skills() {
         {/* Content Area */}
         <div className="skills_content-area">
           <motion.div
-            className="skills_grid bg-green-400 flex items-center justify-center"
+            className="skills_grid"
             key={activeTab}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
