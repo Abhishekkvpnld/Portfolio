@@ -1,0 +1,140 @@
+/* Mobile Navigation Styles */
+.mobile__nav {
+    position: fixed;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%); /* This will be handled by Framer Motion's x, but we need initial centering context or wrap in a centering div */
+    /* Note: Framer Motion overwrites transform, so we should center using margin or left/right if possible, OR include translateX(-50%) in the variants */
+    margin-left: -45%; /* Half of 90% width approx, or use calculation */
+    /* Better approach: Let Framer Motion handle transforms. We'll position left:0 right:0 margin:auto */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    width: 90%;
+    max-width: 400px; /* Limit width */
+    border-radius: 1.5rem;
+    padding: 1.5rem 1.5rem;
+    z-index: var(--z-fixed);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 40px rgba(31, 38, 135, 0.15);
+    display: none; /* Hidden by default (desktop) */
+}
+
+/* Toggle Button (Floating Action Button) */
+.mobile__nav-toggle {
+    position: fixed;
+    bottom: 2rem;
+    right: 1.5rem;
+    background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+    z-index: var(--z-tooltip);
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.mobile__nav-toggle:active {
+    transform: scale(0.9);
+}
+
+.mobile__nav-toggle i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Close Button inside Nav */
+.mobile__nav-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.mobile__nav-close:hover {
+    opacity: 1;
+    color: #f43f5e;
+}
+
+
+/* Show only on mobile screens */
+@media screen and (max-width: 768px) {
+    .mobile__nav, .mobile__nav-toggle {
+        display: flex; /* Toggle is flex, Nav is block (but motion.div handles display usually) */
+    }
+    .mobile__nav {
+        display: block; /* Ensure it's block for layout details */
+    }
+}
+
+.mobile__nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.mobile__nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: 0.3s;
+    row-gap: 0.25rem;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    position: relative;
+}
+
+.mobile__nav-icon {
+    font-size: 1.4rem;
+    color: var(--title-color);
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 10;
+}
+
+.mobile__nav-name {
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+/* Active Link Styling */
+.active-link {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(6, 182, 212, 0.1));
+}
+
+.active-link .mobile__nav-icon {
+    transform: translateY(-2px);
+    color: #8b5cf6;
+}
+
+.active-link .mobile__nav-name {
+    color: #8b5cf6;
+    opacity: 1;
+}
+
+/* Hover effects */
+.mobile__nav-link:hover .mobile__nav-icon {
+    color: #8b5cf6;
+}

@@ -17,35 +17,37 @@ function Data() {
         <span className='home_title-start'>I'm</span>
 
         {/* Staggered Text Animation for Name */}
-        {Array.from("Abhishek KV").map((char, index) => (
+        <span style={{ whiteSpace: "nowrap", display: "inline-flex", alignItems: "center" }}>
+          {Array.from("Abhishek kv").map((char, index) => (
+            <motion.span
+              key={index}
+              style={{ display: "inline-block" }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 0.2 + (index * 0.1),
+                type: "spring",
+                stiffness: 120
+              }}
+            >
+              {char === " " ? "\u00A0" : char}
+            </motion.span>
+          ))}
+
           <motion.span
-            key={index}
-            style={{ display: "inline-block" }}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            style={{ display: "inline-block", marginLeft: "10px" }}
+            animate={{ rotate: [0, 14, -8, 14, -4, 10, 0] }}
             transition={{
-              duration: 0.5,
-              delay: 0.2 + (index * 0.1),
-              type: "spring",
-              stiffness: 120
+              duration: 2.5,
+              repeat: Infinity,
+              repeatType: "loop",
+              ease: "easeInOut"
             }}
           >
-            {char === " " ? "\u00A0" : char}
+            👋
           </motion.span>
-        ))}
-
-        <motion.span
-          style={{ display: "inline-block", marginLeft: "10px" }}
-          animate={{ rotate: [0, 14, -8, 14, -4, 10, 0] }}
-          transition={{
-            duration: 2.5,
-            repeat: Infinity,
-            repeatType: "loop",
-            ease: "easeInOut"
-          }}
-        >
-          👋
-        </motion.span>
+        </span>
       </motion.h2>
 
       <h3 className="home_subtitle">

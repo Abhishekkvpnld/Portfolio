@@ -130,18 +130,7 @@
 /* Mobile styles */
 @media screen and (max-width: 768px) {
     .header {
-        top: initial;
-        bottom: 0;
-        border-radius: 0;
-        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
-        background: rgba(255, 255, 255, 0.9);
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
-        padding: 0;
-        height: 3.5rem; /* Compact header bar */
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: none;
     }
 
     .nav {

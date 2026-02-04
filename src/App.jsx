@@ -15,6 +15,8 @@ const Contact = lazy(() => import('./components/Contact/Contact'));
 const Footer = lazy(() => import('./components/Footer/Footer'));
 const Scrollup = lazy(() => import('./components/Scrollup/Scrollup'));
 
+const MobileNav = lazy(() => import('./components/MobileNav/MobileNav'));
+
 function App() {
   return (
     <>
@@ -22,6 +24,7 @@ function App() {
       <div className="App">
         <Suspense fallback={<div />}>
           <Header />
+          <MobileNav />
           <main className="main">
             <Home />
             <About />
@@ -34,7 +37,7 @@ function App() {
           <Footer />
           <Scrollup />
         </Suspense>
-      </div>
+      </div >
     </>
   );
 }
